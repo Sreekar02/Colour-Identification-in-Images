@@ -12,7 +12,7 @@ df = pd.read_csv(csv_path, names=index, header=None)
 
 # reading image
 img = cv2.imread(img_path)
-img = cv2.resize(img, (1200,1000))
+img = cv2.resize(img, (1400,1000))
 
 #declaring global variables
 clicked = False
